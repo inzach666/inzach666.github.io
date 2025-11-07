@@ -14,7 +14,7 @@
   <!-- Boxicons -->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-  <!-- Your CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -32,18 +32,29 @@
     </nav>
   </header>
 
-  <!-- ===== MAIN CONTENT ===== -->
+  <!-- ===== HOME SECTION ===== -->
   <section class="home">
     <div class="home-content">
       <h3 class="mu">Hello, I am</h3>
       <h1>Samip Thapa</h1>
       <h3>And I'm a <span class="pro-text"></span></h3>
       <p>
-        B.Sc Physics student | Tech Enthusiast | Ethical Hacker | Web Developer
+        B.Sc Physics Student | Tech Enthusiast | Ethical Hacker | Web Developer
       </p>
+
+      <!-- Button -->
+      <a href="about.html" class="btn-box">More About Me</a>
+
+      <!-- SOCIAL LINKS -->
+      <div class="home-sci">
+        <a href="https://instagram.com/inzach666" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://wa.me/919324389486" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://github.com/inzach666" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://linkedin.com/in/samipthapaa" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      </div>
     </div>
 
-    <!-- Home Image -->
+    <!-- HOME IMAGE -->
     <div class="home-img">
       <div class="glowing-circle">
         <span></span>
@@ -54,18 +65,7 @@
     </div>
   </section>
 
-  <!-- ===== ABOUT ME SECTION ===== -->
-  <section class="about-section">
-    <h2>About Me</h2>
-    <p>
-      I am a passionate B.Sc. Physics student with a strong interest in computational physics, web
-      technologies, and cybersecurity. I enjoy applying analytical thinking to solve complex problems
-      and continuously expanding my technical skill set. I strive to combine my academic background with
-      hands-on programming and ethical hacking expertise to build innovative projects.
-    </p>
-  </section>
-  
-  <!-- Typed.js Script -->
+  <!-- Typed.js Animation -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed(".pro-text", {
@@ -77,12 +77,10 @@
       ],
       typeSpeed: 75,
       backSpeed: 75,
-      backDelay: 500,
+      backDelay: 1000,
       loop: true
     });
   </script>
 </body>
 
-
 </html>
-
